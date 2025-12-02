@@ -1,0 +1,16 @@
+{
+  "type": "fabric:brewing",
+  "input": { "item": "minecraft:water_potion" },
+  "ingredient": { "item": "minecraft:phantom_membrane" },
+  "output": {
+    "item": "minecraft:potion",
+    "components": {
+      "minecraft:potion_effects": [
+        {
+          "id": "nonightmares:wakefulness",
+          "duration": 120000
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "nonightmares",
+	"version": "${version}",
+	"name": "NoNightmares",
+	"description": "Adds the Wakefulness effect that prevents phantoms from spawning. Can be brewed and selected as a Beacon effect.",
+	"authors": [
+		"TheTimStage"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nonightmares/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.tts.NoNightmares"
+		]
+	},
+	"mixins": [
+		"nonightmares.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

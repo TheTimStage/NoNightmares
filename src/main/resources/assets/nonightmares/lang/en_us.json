@@ -1,0 +1,9 @@
+{
+  "effect.nonightmares.wakefulness": "Wakefulness",
+
+  "item.minecraft.potion.effect.wakefulness": "Potion of Wakefulness",
+  "item.minecraft.splash_potion.effect.wakefulness": "Splash Potion of Wakefulness",
+  "item.minecraft.lingering_potion.effect.wakefulness": "Lingering Potion of Wakefulness",
+  "item.minecraft.potion.effect.long_wakefulness": "Long Potion of Wakefulness",
+  "item.minecraft.tipped_arrow.effect.wakefulness": "Arrow of Wakefulness"
+}

@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "org.tts.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PhantomsSpawnMixin",
+		"BeaconEffectAddMixin",
+		"PointRecipeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

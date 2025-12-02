@@ -1,0 +1,8 @@
+{
+  "effect.nonightmares.wakefulness": "Бодрость",
+
+  "item.minecraft.potion.effect.wakefulness": "Зелье бодрости",
+  "item.minecraft.splash_potion.effect.wakefulness": "Взрывное зелье бодрости",
+  "item.minecraft.lingering_potion.effect.wakefulness": "Оседающее зелье бодрости",
+  "item.minecraft.tipped_arrow.effect.wakefulness": "Стрела бодрости"
+}
