@@ -5,5 +5,11 @@
   "item.minecraft.splash_potion.effect.wakefulness": "Splash Potion of Wakefulness",
   "item.minecraft.lingering_potion.effect.wakefulness": "Lingering Potion of Wakefulness",
   "item.minecraft.potion.effect.long_wakefulness": "Long Potion of Wakefulness",
-  "item.minecraft.tipped_arrow.effect.wakefulness": "Arrow of Wakefulness"
+  "item.minecraft.tipped_arrow.effect.wakefulness": "Arrow of Wakefulness",
+
+  "item.minecraft.potion.effect.strong_wakefulness": "Potion of Wakefulness",
+  "item.minecraft.splash_potion.effect.strong_wakefulness": "Splash Potion of Wakefulness",
+  "item.minecraft.lingering_potion.effect.strong_wakefulness": "Lingering Potion of Wakefulness",
+  "item.minecraft.potion.effect.strong_wakefulness": "Long Potion of Wakefulness",
+  "item.minecraft.tipped_arrow.effect.strong_wakefulness": "Arrow of Wakefulness"
 }

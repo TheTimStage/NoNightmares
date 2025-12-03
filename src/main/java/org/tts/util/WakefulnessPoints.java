@@ -12,7 +12,11 @@ import org.tts.effects.ModEffects;
 public class WakefulnessPoints {
     public static final RegistryEntry<Potion> WAKEFULNESS = Registry.registerReference(Registries.POTION,
             Identifier.of(NoNightmares.MOD_ID, "wakefulness"),
-            new Potion("wakefulness", new StatusEffectInstance(ModEffects.WAKEFULNESS_ENTRY, 120_000, 0)));
+            new Potion("wakefulness", new StatusEffectInstance(ModEffects.WAKEFULNESS_ENTRY, 24_000, 0)));
+
+    public static final RegistryEntry<Potion> STRONG_WAKEFULNESS = Registry.registerReference(
+            Registries.POTION, Identifier.of(NoNightmares.MOD_ID, "strong_wakefulness"),
+            new Potion("strong_wakefulness", new StatusEffectInstance(ModEffects.WAKEFULNESS_ENTRY, 120_000)));
 
     public static void init() {}
 }

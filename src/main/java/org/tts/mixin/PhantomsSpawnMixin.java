@@ -12,7 +12,7 @@ import org.tts.effects.ModEffects;
 @Mixin(PhantomSpawner.class)
 public class PhantomsSpawnMixin {
     @Inject(method = "spawn", at = @At("HEAD"), cancellable = true)
-    private void noNightmares$noPhantoms(ServerWorld world, boolean spawnMonsters, CallbackInfo ci) {
+    private void noNightmares$noPhantoms(ServerWorld world, boolean spawnMonsters, boolean spawnAnimals, CallbackInfo ci) {
 
         for (ServerPlayerEntity player : world.getPlayers()) {
             if (player.hasStatusEffect(ModEffects.WAKEFULNESS_ENTRY)) {

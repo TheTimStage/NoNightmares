@@ -2,8 +2,6 @@ package org.tts;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.block.entity.BeaconBlockEntity;
-import net.minecraft.entity.effect.StatusEffects;
 import org.tts.effects.ModEffects;
 import org.tts.util.WakefulnessPoints;
 

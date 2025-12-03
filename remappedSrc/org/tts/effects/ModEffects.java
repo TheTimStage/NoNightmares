@@ -2,14 +2,11 @@ package org.tts.effects;
 
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
-import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import org.tts.NoNightmares;
-
-import java.awt.*;
 
 public class ModEffects {
     public static StatusEffect WAKEFULNESS;

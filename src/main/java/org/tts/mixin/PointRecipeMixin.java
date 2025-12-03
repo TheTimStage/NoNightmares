@@ -13,6 +13,7 @@ import org.tts.util.WakefulnessPoints;
 public class PointRecipeMixin {
     @Inject(method = "registerDefaults", at = @At("TAIL"))
     private static void nonightmares$addWakefulnessRecipes(BrewingRecipeRegistry.Builder builder, CallbackInfo ci) {
-        builder.registerPotionRecipe(Potions.WATER, Items.PHANTOM_MEMBRANE, WakefulnessPoints.WAKEFULNESS);
+        builder.registerPotionRecipe(Potions.WATER, Items.COCOA_BEANS, WakefulnessPoints.WAKEFULNESS);
+        builder.registerPotionRecipe(WakefulnessPoints.WAKEFULNESS, Items.PHANTOM_MEMBRANE, WakefulnessPoints.STRONG_WAKEFULNESS);
     }
 }
